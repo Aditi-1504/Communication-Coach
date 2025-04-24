@@ -1,5 +1,5 @@
 def save_report_html(data):
-    html = f"""
+    html = f
     <!DOCTYPE html>
     <html>
     <head>
@@ -48,7 +48,7 @@ def save_report_html(data):
         <p>{data['overall_sentiment']}</p>
     </body>
     </html>
-    """
+    
 
     with open("report.html", "w", encoding="utf-8") as f:
         f.write(html)
