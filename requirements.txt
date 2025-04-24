@@ -1,0 +1,8 @@
+flask
+requests
+textblob
+openai
+streamlit
+matplotlib
+assemblyai
+python-dotenv
